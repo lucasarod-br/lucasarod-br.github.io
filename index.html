@@ -693,7 +693,7 @@ document.getElementById('formConversao').addEventListener('submit', function(e) 
 
     formData.cpfCnpj = cpfCnpj;
 
-    fetch('https://system.brasalrefrigerantes.com.br/backcad/api/leads', {
+    fetch('https://system.brasalrefrigerantes.com.br/backcad/api/v1/leads', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
